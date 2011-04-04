@@ -1,0 +1,50 @@
+1- git init : Crea un repositorio local en el directorio en el que estas
+  $ git init
+
+2- git clone : Copia un repositorio 
+  $ git clone git://github.com/schacon/simplegit.git
+
+3- git add : Agrega los archivos a un area de ensayo donde el git commit se fija 
+            para subirlos
+  $ git add README hello.rb
+
+4- git status : ver el estado de tus archivos en el directorio de trabajo y en el 
+               area de ensayo
+  $ git status
+
+5- git diff : muestra los cambios que has hecho en tu proyecto desde el ultimo commit 
+             que no estan todavia en el area de ensayo para el proximo commit.
+  $ git diff
+
+6- git commit : guarda los cambios de los archivos en el area de ensayo en el repositorio 
+  $ git commit -m 'my hola mundo changes'
+
+7- git reset HEAD : vuelve a un estado anterior del repositoio
+  $ git reset HEAD
+
+8- git rm : elimina archivos del area de ensayo
+  $ git rm
+
+9- git brnach : crea y administra contextos de trabajo(ramas)
+  $ git branch
+
+10- git checkout : cambia de contexto de trabajo (rama) 
+  $git chekout master
+
+11- git merge : incorpora un contexto de trabajo en el contexto principal
+  $ git merge removals
+
+12- git log : muestra el historial del commit de un contexto (rama)
+  $ git log
+
+13- git tag : marca un puto del historial como importante
+  $ git tag -a v1.0
+
+14- git fetch : baja contextos nuevos e informacion desde un repositorio 
+                remoto
+  $ git fecth github
+
+15- git push : agrega los cambios de tu proyecto al repositorio remoto
+  $ git push github master
+
+
